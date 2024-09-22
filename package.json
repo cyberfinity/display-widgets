@@ -1,0 +1,31 @@
+{
+  "name": "display-widgets",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Web-components that mimic various kinds of digital display",
+  "type": "module",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/cyberfinity/display-widgets.git"
+  },
+  "keywords": [
+    "web",
+    "component",
+    "custom",
+    "element",
+    "digital",
+    "display",
+    "retro"
+  ],
+  "author": "James Nash (https://cirrus.twiddles.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cyberfinity/display-widgets/issues"
+  },
+  "homepage": "https://github.com/cyberfinity/display-widgets#readme",
+  "workspaces": [
+    "packages/*"
+  ]
+}
