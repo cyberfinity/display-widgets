@@ -1,0 +1,28 @@
+{
+	"name": "@cyberfinity/display-7seg",
+	"version": "0.0.0",
+	"description": "Seven segment display web component",
+	"type": "module",
+	"types": "dist/index.d.ts",
+	"main": "dist/index.js",
+	"scripts": {
+		"build": "tsc",
+		"start": "vite demo/"
+	},
+	"files": [
+		"dist/"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/cyberfinity/display-widgets.git"
+	},
+	"author": "James Nash (https://cirrus.twiddles.com/)",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/cyberfinity/display-widgets/issues"
+	},
+	"homepage": "https://github.com/cyberfinity/display-widgets/packages/display-7seg#readme",
+	"devDependencies": {
+		"vite": "^5.4.7"
+	}
+}

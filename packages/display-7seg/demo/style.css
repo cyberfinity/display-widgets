@@ -1,0 +1,26 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+	color: lightseagreen;
+	font-family: system-ui, sans-serif;
+}
+
+svg {
+	display: block;
+	width: 100%;
+	height: auto;
+	max-width: 250px;
+	overflow: visible;
+}
+
+.seven-seg--on {
+	fill: currentColor;
+	filter: drop-shadow(0 0 1px color-mix(in srgb, currentColor, transparent 50%));
+}
+
+.seven-seg--off {
+	fill: color-mix(in srgb, currentColor, transparent 90%);
+}
